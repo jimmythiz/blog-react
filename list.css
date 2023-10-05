@@ -1,0 +1,87 @@
+.singlelists{
+    box-shadow: 0 2px 4px 1px #ccc ;
+    padding:  1rem;
+    margin: 0 0 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.singlelists button{
+    color: aliceblue;
+    height: fit-content;
+    outline: none;
+    padding: .4rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: .2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.singlelists button.delete{
+    background-color: red;
+}
+.singlelists button.view{
+    background-color:rgb(84, 122, 211)
+}
+.list-title{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.singlelists:hover{
+    transition: .5s ease-in; 
+    background-color: rgb(238, 234, 234);
+}
+.list-div{
+    width: 80vw;
+    margin: auto;
+}
+.form-container{
+    width: 70vw;
+    margin: auto;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container form label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 2rem 0 .4rem 0;
+}
+
+.form-container form input,textarea,select{
+    border-radius: .4rem;
+    width: 70%;
+    font-size: 1.4rem;
+    padding: .5rem;
+}
+.form-container form input{
+    height: 2rem;
+}
+.form-container form textarea{
+    height: fit-content;
+    min-height: 5rem;
+}
+.form-container form select{
+    height: 3rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+.form-container form button{
+    background-color: #f1356d;
+    color: white;
+    outline: none;
+    border: none;
+    padding: .8rem 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 45%;
+    border-radius: .7rem;
+    margin-top: 2rem;
+}
